@@ -1,7 +1,7 @@
 import React from "react";
 
 const CLIENT_ID = "e2dda95fc7a34ee689ac3085d2e40358";
-const REDIRECT_URI = "https://spotify-tracker-wnc3-1voqzz1ek-sourav-das-projects-6b60eeb7.vercel.app/";
+const REDIRECT_URI = "https://spotify-tracker-wnc3.vercel.app/";
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
 const RESPONSE_TYPE = "token";
 
@@ -17,7 +17,7 @@ function App() {
           color: "white",
           borderRadius: "20px",
           textDecoration: "none",
-          fontSize: "18px"
+          fontSize: "18px",
         }}
       >
         Login with Spotify
@@ -27,3 +27,4 @@ function App() {
 }
 
 export default App;
+
